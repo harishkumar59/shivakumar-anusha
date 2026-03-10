@@ -139,34 +139,34 @@ body {
 }
 
 .details-content {
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
 .details-content h2 {
     font-family: 'Dancing Script', cursive;
-    font-size: clamp(1.8rem, 6vw, 2.5rem);
+    font-size: clamp(2.2rem, 7vw, 3.2rem);
     color: var(--text-gold);
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-weight: 700;
 }
 
 .details-content p {
     font-family: 'Dancing Script', cursive;
-    font-size: clamp(0.9rem, 2.5vw, 1.1rem);
+    font-size: clamp(1.1rem, 3.5vw, 1.5rem);
     color: #555;
     line-height: 1.8;
     text-align: center;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 .invite-highlight {
     font-family: 'Playfair Display', serif !important;
-    font-size: clamp(1rem, 3vw, 1.25rem) !important;
+    font-size: clamp(1.15rem, 3.5vw, 1.5rem) !important;
     color: var(--text-gold) !important;
     font-weight: 700;
-    margin-bottom: 18px !important;
+    margin-bottom: 20px !important;
 }
 
 /* ============================================
@@ -181,13 +181,13 @@ body {
 
 .date-section .invite-date {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(1.2rem, 4vw, 1.8rem);
+    font-size: clamp(1.4rem, 5vw, 2.2rem);
     font-weight: 700;
     color: var(--text-dark);
     letter-spacing: 3px;
     text-transform: uppercase;
     background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
-    padding: 18px 30px;
+    padding: 22px 38px;
     border-radius: 12px;
     display: inline-block;
     box-shadow: 0 4px 15px rgba(255, 196, 0, 0.3);
@@ -219,7 +219,7 @@ body {
 
 .couple-names {
     font-family: 'Dancing Script', cursive;
-    font-size: clamp(1.5rem, 6vw, 3.5rem);
+    font-size: clamp(2rem, 8vw, 4rem);
     font-weight: 700;
     color: var(--text-gold);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
@@ -232,7 +232,7 @@ body {
 .bride-label,
 .groom-label {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+    font-size: clamp(1rem, 3vw, 1.4rem);
     font-weight: 600;
     color: var(--text-dark);
     letter-spacing: 3px;
@@ -244,11 +244,11 @@ body {
 
 .invite-time {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(0.9rem, 2.8vw, 1.3rem);
+    font-size: clamp(1.1rem, 3.5vw, 1.6rem);
     font-weight: 600;
     color: var(--text-gold);
     letter-spacing: 2px;
-    margin-top: 12px;
+    margin-top: 14px;
 }
 
 /* ============================================
@@ -263,31 +263,31 @@ body {
 
 .venue-heading {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(1.3rem, 4vw, 1.8rem);
+    font-size: clamp(1.5rem, 5vw, 2.2rem);
     font-weight: 700;
     color: var(--text-gold);
     letter-spacing: 3px;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
 }
 
 .venue-name {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(1.1rem, 3.5vw, 1.5rem);
+    font-size: clamp(1.3rem, 4.5vw, 1.9rem);
     font-weight: 700;
     color: var(--text-dark);
-    margin-bottom: 10px;
-    letter-spacing: 1px;
+    margin-bottom: 12px;
+    letter-spacing: 1.5px;
 }
 
 .venue-address {
     font-family: 'Roboto', sans-serif;
-    font-size: clamp(0.75rem, 2.5vw, 1rem);
+    font-size: clamp(0.9rem, 3vw, 1.2rem);
     font-weight: 400;
     color: #666;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    line-height: 1.6;
+    line-height: 1.8;
     max-width: 500px;
     margin: 0 auto;
 }
@@ -528,7 +528,7 @@ body {
     }
 
     .couple-names {
-        font-size: clamp(1.3rem, 5vw, 2.2rem);
+        font-size: clamp(1.8rem, 7vw, 2.8rem);
         padding: 0 5px;
     }
 
@@ -538,7 +538,7 @@ body {
     }
 
     .invite-time {
-        font-size: clamp(0.85rem, 2.5vw, 1rem);
+        font-size: clamp(1rem, 3.5vw, 1.3rem);
         letter-spacing: 1.5px;
         margin-top: 10px;
     }
@@ -559,13 +559,13 @@ body {
     }
 
     .details-content h2 {
-        margin-bottom: 12px;
-        font-size: clamp(1.5rem, 5.5vw, 2rem);
+        margin-bottom: 15px;
+        font-size: clamp(1.8rem, 7vw, 2.5rem);
     }
 
     .details-content p {
         line-height: 1.7;
-        font-size: clamp(0.85rem, 2.5vw, 1rem);
+        font-size: clamp(1rem, 3.5vw, 1.3rem);
     }
 
     .date-section {
@@ -573,8 +573,8 @@ body {
     }
 
     .date-section .invite-date {
-        font-size: clamp(0.9rem, 3.2vw, 1.4rem);
-        padding: 14px 20px;
+        font-size: clamp(1.1rem, 4vw, 1.6rem);
+        padding: 16px 24px;
         letter-spacing: 1.5px;
     }
 
@@ -587,17 +587,17 @@ body {
     }
 
     .venue-heading {
-        font-size: clamp(1.1rem, 3.5vw, 1.5rem);
+        font-size: clamp(1.3rem, 4.5vw, 1.8rem);
         letter-spacing: 2px;
-        margin-bottom: 12px;
+        margin-bottom: 14px;
     }
 
     .venue-name {
-        font-size: clamp(0.95rem, 3vw, 1.3rem);
+        font-size: clamp(1.1rem, 4vw, 1.5rem);
     }
 
     .venue-address {
-        font-size: clamp(0.7rem, 2.2vw, 0.9rem);
+        font-size: clamp(0.85rem, 3vw, 1.1rem);
         letter-spacing: 1px;
         padding: 0 5px;
     }
@@ -658,7 +658,7 @@ body {
     }
 
     .couple-names {
-        font-size: clamp(1.1rem, 4.5vw, 1.8rem);
+        font-size: clamp(1.4rem, 5.5vw, 2.2rem);
         padding: 0 3px;
     }
 
@@ -667,18 +667,18 @@ body {
     }
 
     .details-content h2 {
-        font-size: clamp(1.3rem, 5vw, 1.6rem);
-        margin-bottom: 10px;
+        font-size: clamp(1.6rem, 6vw, 2rem);
+        margin-bottom: 12px;
     }
 
     .details-content p {
-        font-size: clamp(0.8rem, 2.3vw, 0.9rem);
-        line-height: 1.6;
+        font-size: clamp(0.95rem, 3vw, 1.1rem);
+        line-height: 1.7;
     }
 
     .invite-highlight {
-        font-size: clamp(0.85rem, 2.8vw, 1.05rem) !important;
-        margin-bottom: 12px !important;
+        font-size: clamp(1rem, 3.2vw, 1.2rem) !important;
+        margin-bottom: 14px !important;
     }
 
     .date-section {
@@ -686,14 +686,14 @@ body {
     }
 
     .date-section .invite-date {
-        font-size: clamp(0.75rem, 2.8vw, 1.2rem);
-        padding: 12px 16px;
+        font-size: clamp(0.9rem, 3.5vw, 1.3rem);
+        padding: 14px 20px;
         letter-spacing: 1px;
         border-radius: 10px;
     }
 
     .invite-time {
-        font-size: clamp(0.75rem, 2.2vw, 0.9rem);
+        font-size: clamp(0.85rem, 2.8vw, 1rem);
         letter-spacing: 1px;
         margin-top: 8px;
     }
@@ -711,18 +711,18 @@ body {
     }
 
     .venue-heading {
-        font-size: clamp(1rem, 3.2vw, 1.3rem);
+        font-size: clamp(1.2rem, 4vw, 1.5rem);
         letter-spacing: 1.5px;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
     }
 
     .venue-name {
-        font-size: clamp(0.85rem, 2.8vw, 1.1rem);
-        margin-bottom: 8px;
+        font-size: clamp(1rem, 3.5vw, 1.3rem);
+        margin-bottom: 10px;
     }
 
     .venue-address {
-        font-size: clamp(0.65rem, 2vw, 0.8rem);
+        font-size: clamp(0.8rem, 2.5vw, 1rem);
         letter-spacing: 0.5px;
     }
 
@@ -784,7 +784,7 @@ body {
     }
 
     .couple-names {
-        font-size: clamp(1rem, 4vw, 1.5rem);
+        font-size: clamp(1.2rem, 5vw, 1.8rem);
         padding: 0 2px;
     }
 
@@ -793,25 +793,25 @@ body {
     }
 
     .details-content h2 {
-        font-size: clamp(1.2rem, 4.5vw, 1.5rem);
+        font-size: clamp(1.4rem, 5.5vw, 1.8rem);
     }
 
     .details-content p {
-        font-size: 0.78rem;
+        font-size: 0.9rem;
     }
 
     .invite-highlight {
-        font-size: 0.8rem !important;
+        font-size: 0.9rem !important;
     }
 
     .date-section .invite-date {
-        font-size: 0.7rem;
-        padding: 10px 12px;
+        font-size: 0.85rem;
+        padding: 12px 16px;
         letter-spacing: 0.5px;
     }
 
     .invite-time {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         letter-spacing: 0.5px;
         margin-top: 6px;
     }
@@ -821,15 +821,15 @@ body {
     }
 
     .venue-heading {
-        font-size: 0.95rem;
+        font-size: 1.1rem;
     }
 
     .venue-name {
-        font-size: 0.8rem;
+        font-size: 0.95rem;
     }
 
     .venue-address {
-        font-size: 0.6rem;
+        font-size: 0.75rem;
     }
 
     .map-frame iframe {
