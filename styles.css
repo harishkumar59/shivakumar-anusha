@@ -66,15 +66,17 @@ body {
 /* Title - ENGAGEMENT CEREMONY */
 .invite-title {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(1.2rem, 4.5vw, 2.8rem);
+    font-size: clamp(1rem, 4.5vw, 2.8rem);
     font-weight: 800;
     color: var(--text-gold);
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 20px;
     line-height: 1.3;
-    white-space: nowrap;
-    /* Keeps the title on a single line on all screens */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+    padding: 0 5px;
 }
 
 /* Names - Sai Ram & Shravani */
@@ -151,7 +153,7 @@ body {
 }
 
 .details-content p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-size: clamp(0.9rem, 2.5vw, 1.1rem);
     color: #555;
     line-height: 1.8;
@@ -217,13 +219,14 @@ body {
 
 .couple-names {
     font-family: 'Dancing Script', cursive;
-    font-size: clamp(2rem, 8vw, 3.5rem);
+    font-size: clamp(1.5rem, 6vw, 3.5rem);
     font-weight: 700;
     color: var(--text-gold);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
     line-height: 1.3;
-    white-space: nowrap;
-    /* Keeps the names on a single line on all screens */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 0 10px;
 }
 
 .bride-label,
@@ -241,7 +244,7 @@ body {
 
 .invite-time {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(1rem, 3vw, 1.3rem);
+    font-size: clamp(0.9rem, 2.8vw, 1.3rem);
     font-weight: 600;
     color: var(--text-gold);
     letter-spacing: 2px;
@@ -463,9 +466,18 @@ body {
         font-size: clamp(1.8rem, 7vw, 3rem);
     }
 
+    .couple-names {
+        font-size: clamp(1.5rem, 5.5vw, 2.8rem);
+    }
+
     .invite-date {
         letter-spacing: 2px;
         margin-bottom: 10px;
+    }
+
+    .invite-time {
+        font-size: clamp(0.9rem, 2.5vw, 1.1rem);
+        margin-top: 10px;
     }
 
     .invite-venue {
@@ -507,10 +519,7 @@ body {
     .invite-title {
         letter-spacing: 1.5px;
         margin-bottom: 8px;
-        /* HOW TO ADJUST: Change the middle value (4vw) to increase/decrease size.
-           Bigger number = bigger text. e.g., 5vw = larger, 3vw = smaller.
-           The 1st value (1.1rem) is the minimum size, 3rd value (1.7rem) is the maximum. */
-        font-size: clamp(1.8rem, 6vw, 3rem);
+        font-size: clamp(1.2rem, 5vw, 2rem);
     }
 
     .invite-names {
@@ -518,9 +527,20 @@ body {
         font-size: clamp(1.6rem, 6.5vw, 2.5rem);
     }
 
+    .couple-names {
+        font-size: clamp(1.3rem, 5vw, 2.2rem);
+        padding: 0 5px;
+    }
+
     .invite-date {
         letter-spacing: 1.5px;
         margin-bottom: 8px;
+    }
+
+    .invite-time {
+        font-size: clamp(0.85rem, 2.5vw, 1rem);
+        letter-spacing: 1.5px;
+        margin-top: 10px;
     }
 
     .invite-venue {
@@ -553,9 +573,9 @@ body {
     }
 
     .date-section .invite-date {
-        font-size: clamp(1rem, 3.5vw, 1.4rem);
-        padding: 14px 24px;
-        letter-spacing: 2px;
+        font-size: clamp(0.9rem, 3.2vw, 1.4rem);
+        padding: 14px 20px;
+        letter-spacing: 1.5px;
     }
 
     .image-section {
@@ -628,8 +648,6 @@ body {
 
     .invite-title {
         letter-spacing: 1px;
-        /* HOW TO ADJUST: Change the middle value (3.6vw) to increase/decrease size.
-           e.g., 4vw = larger, 3vw = smaller. */
         font-size: clamp(0.9rem, 3.6vw, 1.4rem);
         margin-bottom: 6px;
     }
@@ -637,6 +655,11 @@ body {
     .invite-names {
         font-size: clamp(1.5rem, 6vw, 2rem);
         margin-bottom: 3px;
+    }
+
+    .couple-names {
+        font-size: clamp(1.1rem, 4.5vw, 1.8rem);
+        padding: 0 3px;
     }
 
     .details-section {
@@ -663,10 +686,16 @@ body {
     }
 
     .date-section .invite-date {
-        font-size: clamp(0.85rem, 3.2vw, 1.2rem);
-        padding: 12px 20px;
-        letter-spacing: 1.5px;
+        font-size: clamp(0.75rem, 2.8vw, 1.2rem);
+        padding: 12px 16px;
+        letter-spacing: 1px;
         border-radius: 10px;
+    }
+
+    .invite-time {
+        font-size: clamp(0.75rem, 2.2vw, 0.9rem);
+        letter-spacing: 1px;
+        margin-top: 8px;
     }
 
     .image-section {
@@ -744,9 +773,7 @@ body {
     }
 
     .invite-title {
-        /* HOW TO ADJUST: Change the middle value (3.2vw) to increase/decrease size.
-           e.g., 3.5vw = larger, 2.5vw = smaller. */
-        font-size: clamp(0.8rem, 3.2vw, 1.1rem);
+        font-size: clamp(0.75rem, 3vw, 1.1rem);
         letter-spacing: 0.5px;
         margin-bottom: 5px;
     }
@@ -754,6 +781,11 @@ body {
     .invite-names {
         font-size: clamp(1.3rem, 5.5vw, 1.7rem);
         margin-bottom: 2px;
+    }
+
+    .couple-names {
+        font-size: clamp(1rem, 4vw, 1.5rem);
+        padding: 0 2px;
     }
 
     .details-section {
@@ -773,9 +805,15 @@ body {
     }
 
     .date-section .invite-date {
-        font-size: 0.8rem;
-        padding: 10px 16px;
-        letter-spacing: 1px;
+        font-size: 0.7rem;
+        padding: 10px 12px;
+        letter-spacing: 0.5px;
+    }
+
+    .invite-time {
+        font-size: 0.7rem;
+        letter-spacing: 0.5px;
+        margin-top: 6px;
     }
 
     .parallax-image {
